@@ -23,10 +23,6 @@ DNSIP=$(echo $DNSTEST|grep -Eo "$IPREX"|tail -n1)
 else DNSIP="Get $DOMAIN DNS Failed."
 fi
 echo "[DNS IP]:$DNSIP"
-if [ "$DNSIP" == "$URLIP" ];then
-echo "IP SAME IN DNS,SKIP UPDATE."
-exit
-fi
 fi
 NOWTIME=$(env LANG=en_US.UTF-8 date +'%a %h %d %H:%M:%S %Y')
 HMAC=$(echo -n $API_KEY$APIURL$JSON$NOWTIME$SECRET_KEY|md5sum|cut -d' ' -f1)
