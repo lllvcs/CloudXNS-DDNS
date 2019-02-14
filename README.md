@@ -1,3 +1,9 @@
+# 安装
+```
+wget https://raw.githubusercontent.com/lllvcs/CloudXNS-DDNS-with-BashShell/master/cloudxns_ddns.sh
+```
+
+
 # CloudXNS-DDNS-with-BashShell
 利用CloudXNS的API和shell脚本搭建自己的动态域名服务。如果你使用这个脚本，建议点watch以获取更新通知。  
 >用于CloudXns的Powershell脚本另见：  
