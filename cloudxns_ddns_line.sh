@@ -1,12 +1,10 @@
 #CloudXNS DDNS with BashShell
-#Github:https://github.com/lixuy/CloudXNS-DDNS-with-BashShell
-#More: https://03k.org/cloudxns-ddns-with-bashshell.html
 #CONF START
 API_KEY="abcdefghijklmnopqrstuvwxyz1234567"
 SECRET_KEY="abcdefghijk12345"
 DOMAIN="home.xxxx.com"
 DEV="eth0"
-#OUT="pppoe0"
+#OUT="ppp0"
 #CONF END
 APIURL="http://www.cloudxns.net/api2/ddns"
 JSON="{\"domain\":\"$DOMAIN\",\"ip\":\"$DEVIP\"}"
