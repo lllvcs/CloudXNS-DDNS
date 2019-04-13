@@ -1,9 +1,17 @@
 # 安装
+
+动态公网ip
 ```
 wget https://raw.githubusercontent.com/lllvcs/CloudXNS-DDNS-with-BashShell/master/cloudxns_ddns.sh
 ```
-
-
+静态ip
+```
+wget https://raw.githubusercontent.com/lllvcs/CloudXNS-DDNS-with-BashShell/master/cloudxns_ddns_eth.sh
+```
+pppoe拨号获取设备ip
+```
+wget https://raw.githubusercontent.com/lllvcs/CloudXNS-DDNS-with-BashShell/master/cloudxns_ddns_ppp.sh
+```
 # CloudXNS-DDNS-with-BashShell
 利用CloudXNS的API和shell脚本搭建自己的动态域名服务。如果你使用这个脚本，建议点watch以获取更新通知。  
 >用于CloudXns的Powershell脚本另见：  
@@ -45,7 +53,7 @@ OUT|指定使用某个网卡设备进行联网通信（默认被注释掉）。�
 #### 注意事项
 本脚本**不会**自动创建子域名，请务必先到后台添加一个随意的子域名A记录，否则会提示Host record does not exist 
 
-### **cloudxns_ddns_line.sh**
+### **cloudxns_ddns_*.sh**
 仅说明与上面脚本参数不同的地方。  
 因该脚本是用于获取网卡设备ip，所以没有CHECKURL参数。  
 #### 参数说明
