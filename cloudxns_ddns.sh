@@ -3,7 +3,13 @@
 API_KEY="abcdefghijklmnopqrstuvwxyz1234567"
 SECRET_KEY="abcdefghijk12345"
 DOMAIN="home.xxxx.com"
-CHECKURL="https://api.ip.la"
+CHECKURL="ip.3322.net"
+
+#CHECKURL="ip.3322.net"
+#CHECKURL="http://members.3322.org/dyndns/getip"
+#CHECKURL="https://api.ip.la"
+#CHECKURL="ip.6655.com/ip.aspx"
+
 #OUT="pppoe0"
 #CONF END
 APIURL="http://www.cloudxns.net/api2/ddns"
