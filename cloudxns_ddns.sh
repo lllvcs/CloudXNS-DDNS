@@ -9,6 +9,7 @@ CHECKURL="ip.3322.net"
 #CHECKURL="http://members.3322.org/dyndns/getip"
 #CHECKURL="https://api.ip.la"
 #CHECKURL="ip.6655.com/ip.aspx"
+#CHECKURL="https://api.ip.sb/ip"
 
 #OUT="pppoe0"
 #CONF END
